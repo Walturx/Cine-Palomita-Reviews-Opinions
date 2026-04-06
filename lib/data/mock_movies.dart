@@ -1,0 +1,58 @@
+import 'package:flutter_repaso/models/movie.dart';
+
+final List<Movie> mockMovies = [
+  Movie(
+    id: '1',
+    title: 'Inception',
+    genre_ids: [878, 28],
+    vote_average: 9.0,
+    poster_path: 'https://picsum.photos/200/300?random=1',
+    overview: 'Un ladrón que roba secretos a través de los sueños.',
+    status: MovieStatus.watched,
+  ),
+  Movie(
+    id: '2',
+    title: 'The Dark Knight',
+    genre_ids: [28, 80],
+    vote_average: 9.5,
+    poster_path: 'https://picsum.photos/200/300?random=2',
+    overview: 'Batman enfrenta al Joker en Gotham City.',
+    status: MovieStatus.watched,
+  ),
+  Movie(
+    id: '3',
+    title: 'Interstellar',
+    genre_ids: [878, 18],
+    vote_average: 8.6,
+    poster_path: 'https://picsum.photos/200/300?random=3',
+    overview: 'Un equipo de astronautas viaja más allá de la galaxia.',
+    status: MovieStatus.watching,
+  ),
+  Movie(
+    id: '4',
+    title: 'The Godfather',
+    genre_ids: [18, 80],
+    vote_average: 9.2,
+    poster_path: 'https://picsum.photos/200/300?random=4',
+    overview: 'La historia de la familia criminal Corleone.',
+    status: MovieStatus.pending,
+  ),
+  Movie(
+    id: '5',
+    title: 'Pulp Fiction',
+    genre_ids: [80, 53],
+    vote_average: 8.9,
+    poster_path: 'https://picsum.photos/200/300?random=5',
+    overview: 'Historias entrelazadas del crimen en Los Ángeles.',
+    status: MovieStatus.pending,
+  ),
+  Movie(
+    id: '6',
+    title: 'The Matrix',
+    genre_ids: [878, 28],
+    vote_average: 8.7,
+    poster_path: 'https://picsum.photos/200/300?random=6',
+    overview: 'Un hacker descubre la verdad sobre su realidad.',
+    status: MovieStatus.watching,
+  ),
+];
